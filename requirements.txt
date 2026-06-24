@@ -1,0 +1,131 @@
+Required Library :
+
+Pandas	
+=> import pandas as pd	
+=> Used to load, clean, manipulate, and analyze the dataset.
+NumPy	
+=> import numpy as np	
+=> Used for numerical operations and mathematical computations.
+Matplotlib	
+=> import matplotlib.pyplot as plt	
+=> Used to create graphs such as line charts, bar charts, and trend plots.
+Seaborn	
+=> import seaborn as sns	
+=> Used to create advanced statistical visualizations like heatmaps and boxplots.
+
+
+---
+
+Detailed Role of Each Library
+
+1. Pandas
+
+import pandas as pd
+
+Purpose:
+
+=> Read CSV files
+
+=> Data cleaning
+
+=> Handle missing values
+
+=> Group and aggregate data
+
+=> Generate statistical summaries
+
+
+---
+
+2. NumPy
+
+import numpy as np
+
+Purpose:
+
+=> Mathematical operations
+
+=> Numerical calculations
+
+=> Correlation analysis support
+
+
+---
+
+3. Matplotlib
+
+import matplotlib.pyplot as plt
+
+Purpose:
+
+=> Draw graphs
+
+=> Display trends
+
+=> Visualize unemployment data
+
+
+Used for:
+
+=> Monthly unemployment trend
+
+=> Top states bar chart
+
+=> Covid-19 trend graph
+
+
+
+---
+
+4. Seaborn
+
+import seaborn as sns
+
+Purpose:
+
+=> Beautiful statistical visualizations
+
+=> Heatmaps
+
+=> Boxplots
+
+=> Correlation analysis
+
+
+Used for:
+
+=> Correlation matrix
+
+=> State-wise heatmap
+
+=> Urban vs Rural comparison
+
+=> Covid-19 analysis graph
+
+
+
+---
+
+Requirements File
+
+=> pandas
+=> numpy
+=> matplotlib
+=> seaborn
+
+---
+
+Role of libraries in the project :
+
+
+Reading a CSV dataset => (Pandas)
+
+Cleaning data => (Pandas)
+
+Statistical analysis => (Pandas + NumPy)
+
+Trend analysis => (Pandas + Matplotlib)
+
+Data visualization => (Matplotlib + Seaborn)
+
+Covid-19 impact analysis => (Pandas + Seaborn)
