@@ -7,15 +7,12 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-import os
 
 # -------------------------------------
 # Load Cleaned Dataset
 # -------------------------------------
 
-script_dir = os.path.dirname(os.path.abspath(__file__))
-csv_path = os.path.join(script_dir, "Unemployment_analysis_cleaned_dataset.csv")
-df = pd.read_csv(csv_path)
+df = pd.read_csv("Unemployment_in_India_Cleaned_dataset.csv")
 
 print("Dataset Loaded Successfully")
 
