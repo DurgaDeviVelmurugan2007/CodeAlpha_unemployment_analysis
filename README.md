@@ -25,6 +25,26 @@ A Data Analysis project that analyzes unemployment trends across India, studies 
   - Correlation Matrix
 - Generate meaningful conclusions from the analysis
 
+Data Cleaning Process
+
+The following preprocessing steps were performed:
+
+1. Removed missing values.
+2. Removed extra spaces from column names.
+3. Cleaned text fields.
+4. Converted the Date column into datetime format.
+5. Removed invalid records after conversion.
+
+Exploratory Data Analysis
+
+The analysis includes:
+
+- Statistical summary of the dataset.
+- State-wise unemployment analysis.
+- Monthly unemployment trend analysis.
+- Urban vs Rural unemployment comparison.
+- COVID-19 impact analysis.
+- Correlation analysis.
 ---
 
 📂 Project Structure
@@ -134,14 +154,8 @@ Correlation Matrix
 
 ---
 
-📜 License
-
-This project is open-source and available under the MIT License.
-
----
-
 👤 Author
 
 Durga Devi
 
-GitHub: https://github.com/<your-username>
+GitHub: https://github.com/DurgaDeviVelmurugan2007
